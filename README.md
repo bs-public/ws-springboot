@@ -12,3 +12,7 @@ Workspace for Spring Boot applications
 - **Spring Boot Version**: 2.7.8
 - **Description**: Spring boot app crud operations with in-memory database h2.
 
+
+### App3: [springboot-admin-demo](https://github.com/bs-public/ws-springboot/tree/main/springboot-admin-demo) 
+- **Spring Boot Version**: 2.7.8
+- **Description**: Spring Boot Admin, the Monitoring tool for Spring Boot Applications
