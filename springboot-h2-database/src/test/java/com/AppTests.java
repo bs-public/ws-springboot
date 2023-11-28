@@ -28,16 +28,15 @@ import com.dao.Person;
 class AppTests {
 
   private static final Logger log = LoggerFactory.getLogger(AppTests.class);
-	
+
   @LocalServerPort
   private int port;
 
   @Autowired
   private TestRestTemplate restTemplate;
 
-
   @Test
-  @Order(1) 
+  @Order(1)
   public void testAddPersons() {
     Person person = new Person();
     person.setName("Test");
@@ -53,9 +52,8 @@ class AppTests {
     assertNotNull(id);
   }
 
-  
   @Test
-  @Order(2) 
+  @Order(2)
   public void testAllPersons() {
     ResponseEntity<Person[]> responseEntity =
         restTemplate.getForEntity("http://localhost:" + port + "/persons", Person[].class);
@@ -66,6 +64,5 @@ class AppTests {
     assertEquals(HttpStatus.OK, statusCode);
     assertNotNull(personList);
   }
-
 
 }

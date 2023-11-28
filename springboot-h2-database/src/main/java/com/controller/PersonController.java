@@ -16,9 +16,9 @@ import com.service.PersonService;
 public class PersonController {
 
   private final PersonService personService;
-  
+
   public PersonController(PersonService personService) {
-	  this.personService = personService;
+    this.personService = personService;
   }
 
   @GetMapping("/persons")
@@ -41,6 +41,5 @@ public class PersonController {
   private void deletePerson(@PathVariable("id") int id) {
     personService.delete(id);
   }
-
 
 }

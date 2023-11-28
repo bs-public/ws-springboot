@@ -19,9 +19,9 @@ import org.springframework.http.ResponseEntity;
 class AppTests {
 
   private static final Logger log = LoggerFactory.getLogger(AppTests.class);
-	
+
   public static final String MSG = "Hello World";
-	
+
   @LocalServerPort
   private int port;
 
@@ -31,14 +31,14 @@ class AppTests {
 
   @Test
   public void testGetMessage() {
-	  ResponseEntity<String> responseEntity =
-		        restTemplate.getForEntity("http://localhost:" + port + "/greetings", String.class);
-	    HttpStatus statusCode = responseEntity.getStatusCode();
-	    assertEquals(HttpStatus.OK, statusCode);
-	    String resp = responseEntity.getBody();
-	    log.info("Response: {}", resp);
-	    assertNotNull(resp);
-	    assertEquals(resp, MSG);
+    ResponseEntity<String> responseEntity =
+        restTemplate.getForEntity("http://localhost:" + port + "/greetings", String.class);
+    HttpStatus statusCode = responseEntity.getStatusCode();
+    assertEquals(HttpStatus.OK, statusCode);
+    String resp = responseEntity.getBody();
+    log.info("Response: {}", resp);
+    assertNotNull(resp);
+    assertEquals(resp, MSG);
   }
 
 }

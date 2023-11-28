@@ -7,13 +7,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class HelloService {
 
-	private static final Logger log = LoggerFactory.getLogger(HelloService.class);
-	
-	public static final String MSG = "Hello World";
+  private static final Logger log = LoggerFactory.getLogger(HelloService.class);
 
-	public String getMessage() {
-		log.info(MSG);
-		return MSG;
-	}
+  public static final String MSG = "Hello World";
+
+  public String getMessage() {
+    log.info(MSG);
+    return MSG;
+  }
 
 }

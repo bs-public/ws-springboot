@@ -12,9 +12,9 @@ import com.dao.PersonRepository;
 public class PersonService {
 
   private final PersonRepository personRepository;
-  
+
   public PersonService(PersonRepository personRepository) {
-	  this.personRepository = personRepository;
+    this.personRepository = personRepository;
   }
 
   public List<Person> getAllPersons() {
@@ -34,5 +34,5 @@ public class PersonService {
   public void delete(int id) {
     personRepository.deleteById(id);
   }
-  
+
 }
