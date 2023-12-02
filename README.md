@@ -15,4 +15,9 @@ Workspace for Spring Boot applications
 
 ### App3: [springboot-admin-demo](https://github.com/bs-public/ws-springboot/tree/main/springboot-admin-demo) 
 - **Spring Boot Version**: 2.7.8
-- **Description**: Spring Boot Admin, the Monitoring tool for Spring Boot Applications
+- **Description**: Spring Boot Admin, the Monitoring tool for Spring Boot Applications.
+
+
+### App4: [springboot-sse](https://github.com/bs-public/ws-springboot/tree/main/springboot-sse) 
+- **Spring Boot Version**: 2.7.8
+- **Description**: Server sent events with springboot applications.
