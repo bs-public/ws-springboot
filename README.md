@@ -21,3 +21,7 @@ Workspace for Spring Boot applications
 ### App4: [springboot-sse](https://github.com/bs-public/ws-springboot/tree/main/springboot-sse) 
 - **Spring Boot Version**: 2.7.8
 - **Description**: Server sent events with springboot applications.
+
+### App5: [springboot-docker](https://github.com/bs-public/ws-springboot/tree/main/springboot-docker) 
+- **Spring Boot Version**: 2.7.8
+- **Description**: Dockerize Springboot application.
