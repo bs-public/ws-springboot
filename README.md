@@ -20,8 +20,12 @@ Workspace for Spring Boot applications
 
 ### App4: [springboot-sse](https://github.com/bs-public/ws-springboot/tree/main/springboot-sse) 
 - **Spring Boot Version**: 2.7.8
-- **Description**: Server sent events with springboot applications.
+- **Description**: Server sent events with springboot application.
 
 ### App5: [springboot-docker](https://github.com/bs-public/ws-springboot/tree/main/springboot-docker) 
 - **Spring Boot Version**: 2.7.8
 - **Description**: Dockerize Springboot application.
+
+### App6: [springboot-docker](https://github.com/bs-public/ws-springboot/tree/main/springboot-thymeleaf-mysql-crud) 
+- **Spring Boot Version**: 2.7.8
+- **Description**: Springboot app with Thymeleaf, MySQL, Flyway, Docker.
