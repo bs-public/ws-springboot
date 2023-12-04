@@ -1,0 +1,12 @@
+services:
+  app:
+    image: springboot-docker
+    container_name: springboot-docker  
+    ports:
+      - 8080:8080
+    environment:
+      - JAVA_OPTS=-Djava.security.egd=file:/dev/./urandom
+    volumes:
+      - app_vol:/app/tmp
+volumes:
+  app_vol:
