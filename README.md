@@ -29,3 +29,7 @@ Workspace for Spring Boot applications
 ### App6: [springboot-docker](https://github.com/bs-public/ws-springboot/tree/main/springboot-thymeleaf-mysql-crud) 
 - **Spring Boot Version**: 2.7.8
 - **Description**: Springboot app with Thymeleaf, MySQL, Flyway, Docker.
+
+### App7: [springboot-kafka](https://github.com/bs-public/ws-springboot/tree/main/springboot-kafka) 
+- **Spring Boot Version**: 2.7.8
+- **Description**: Springboot app with Kafka, Docker.
