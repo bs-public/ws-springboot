@@ -33,3 +33,7 @@ Workspace for Spring Boot applications
 ### App7: [springboot-kafka](https://github.com/bs-public/ws-springboot/tree/main/springboot-kafka) 
 - **Spring Boot Version**: 2.7.8
 - **Description**: Springboot app with Kafka, Docker.
+
+### App8: [springboot-prometheus-grafana](https://github.com/bs-public/ws-springboot/tree/main/springboot-prometheus-grafana) 
+- **Spring Boot Version**: 2.7.8
+- **Description**: Spring Boot with Prometheus and Grafana
