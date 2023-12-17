@@ -7,16 +7,13 @@ Workspace for Spring Boot applications
 - **Spring Boot Version**: 2.7.8
 - **Description**: Basic RESTful web service with Spring Boot.
 
-
 ### App2: [springboot-h2-database](https://github.com/bs-public/ws-springboot/tree/main/springboot-h2-database) 
 - **Spring Boot Version**: 2.7.8
 - **Description**: Spring boot app crud operations with in-memory database h2.
 
-
 ### App3: [springboot-admin-demo](https://github.com/bs-public/ws-springboot/tree/main/springboot-admin-demo) 
 - **Spring Boot Version**: 2.7.8
 - **Description**: Spring Boot Admin, the Monitoring tool for Spring Boot Applications.
-
 
 ### App4: [springboot-sse](https://github.com/bs-public/ws-springboot/tree/main/springboot-sse) 
 - **Spring Boot Version**: 2.7.8
@@ -26,7 +23,7 @@ Workspace for Spring Boot applications
 - **Spring Boot Version**: 2.7.8
 - **Description**: Dockerize Springboot application.
 
-### App6: [springboot-docker](https://github.com/bs-public/ws-springboot/tree/main/springboot-thymeleaf-mysql-crud) 
+### App6: [springboot-thymeleaf-mysql-crud](https://github.com/bs-public/ws-springboot/tree/main/springboot-thymeleaf-mysql-crud) 
 - **Spring Boot Version**: 2.7.8
 - **Description**: Springboot app with Thymeleaf, MySQL, Flyway, Docker.
 
@@ -37,3 +34,7 @@ Workspace for Spring Boot applications
 ### App8: [springboot-prometheus-grafana](https://github.com/bs-public/ws-springboot/tree/main/springboot-prometheus-grafana) 
 - **Spring Boot Version**: 2.7.8
 - **Description**: Spring Boot with Prometheus and Grafana
+
+### App9: [springboot-taskExecutor](https://github.com/bs-public/ws-springboot/tree/main/springboot-taskExecutor) 
+- **Spring Boot Version**: 2.7.8
+- **Description**: Spring Boot, Task Executor and Thread Pool
