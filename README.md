@@ -38,3 +38,7 @@ Workspace for Spring Boot applications
 ### App9: [springboot-taskExecutor](https://github.com/bs-public/ws-springboot/tree/main/springboot-taskExecutor) 
 - **Spring Boot Version**: 2.7.8
 - **Description**: Spring Boot, Task Executor and Thread Pool
+
+### App10: [springboot-customErrorPage](https://github.com/bs-public/ws-springboot/tree/main/springboot-customErrorPage) 
+- **Spring Boot Version**: 2.7.8
+- **Description**: Spring Boot, Thymeleaf
