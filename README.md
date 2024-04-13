@@ -42,3 +42,7 @@ Workspace for Spring Boot applications
 ### App10: [springboot-customErrorPage](https://github.com/bs-public/ws-springboot/tree/main/springboot-customErrorPage) 
 - **Spring Boot Version**: 2.7.8
 - **Description**: Spring Boot, Thymeleaf
+
+### App11: [springboot-hateoas](https://github.com/bs-public/ws-springboot/tree/main/springboot-hateoas) 
+- **Spring Boot Version**: 3.2.4
+- **Description**: Spring Boot with hateoas implementation
