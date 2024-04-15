@@ -46,3 +46,7 @@ Workspace for Spring Boot applications
 ### App11: [springboot-hateoas](https://github.com/bs-public/ws-springboot/tree/main/springboot-hateoas) 
 - **Spring Boot Version**: 3.2.4
 - **Description**: Spring Boot with hateoas implementation
+
+### App12: [springboot-hazelcast](https://github.com/bs-public/ws-springboot/tree/main/springboot-hazelcast) 
+- **Spring Boot Version**: 3.2.4
+- **Description**: Spring Boot with hazelcast cache. Demonstration of various distributed cache topologies (embedded, client server modes)
