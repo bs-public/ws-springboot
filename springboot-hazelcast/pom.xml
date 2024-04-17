@@ -17,13 +17,17 @@
 	<name>springboot-hazelcast</name>
 	<packaging>pom</packaging>
 	<description>Demo project for Spring Boot with Hazelcast</description>
+
 	<properties>
 		<java.version>21</java.version>
 	</properties>
+
 	<modules>
 		<module>embedded-cache</module>
 		<module>client-server</module>
+		<module>near-cache</module>
 	</modules>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -48,6 +52,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 	<build>
 		<plugins>
 			<plugin>
