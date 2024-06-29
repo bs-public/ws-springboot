@@ -35,7 +35,7 @@ Workspace for Spring Boot applications
 - **Spring Boot Version**: 2.7.8
 - **Description**: Spring Boot with Prometheus and Grafana
 
-### App9: [springboot-taskExecutor](https://github.com/bs-public/ws-springboot/tree/main/springboot-taskExecutor) 
+### App9: [springboot-task-executor](https://github.com/bs-public/ws-springboot/tree/main/springboot-task-executor) 
 - **Spring Boot Version**: 2.7.8
 - **Description**: Spring Boot, Task Executor and Thread Pool
 
