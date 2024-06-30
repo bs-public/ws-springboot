@@ -55,3 +55,7 @@ Workspace for Spring Boot applications
 - **Spring Boot Version**: 3.3.1
 - **Description**: Exception handling using ControllerAdvice in Springboot 
 
+### App14: [springboot-springdoc-openapi](https://github.com/bs-public/ws-springboot/tree/main/springboot-springdoc-openapi) 
+- **Spring Boot Version**: 3.3.1
+- **Description**: OpenAPI 3 documentation using springdoc in Springboot
+ 
