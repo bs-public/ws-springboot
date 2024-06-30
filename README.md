@@ -50,3 +50,8 @@ Workspace for Spring Boot applications
 ### App12: [springboot-hazelcast](https://github.com/bs-public/ws-springboot/tree/main/springboot-hazelcast) 
 - **Spring Boot Version**: 3.2.4
 - **Description**: Spring Boot with hazelcast cache. Demonstration of various distributed cache topologies (embedded, client server modes)
+
+### App13: [springboot-exception-handling](https://github.com/bs-public/ws-springboot/tree/main/springboot-exception-handling) 
+- **Spring Boot Version**: 3.3.1
+- **Description**: Exception handling using ControllerAdvice in Springboot 
+
