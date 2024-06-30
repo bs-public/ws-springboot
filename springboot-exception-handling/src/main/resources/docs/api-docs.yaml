@@ -1,0 +1,167 @@
+openapi: 3.0.1
+info:
+  title: OpenAPI definition
+  version: v0
+servers:
+- url: http://localhost:8080
+  description: Generated server url
+tags:
+- name: Book Controller
+  description: API for managing books
+paths:
+  /books/{id}:
+    get:
+      tags:
+      - Book Controller
+      summary: Get book by ID
+      description: Retrieve a book by its ID
+      operationId: getBook
+      parameters:
+      - name: id
+        in: path
+        description: ID of the book to retrieve
+        required: true
+        schema:
+          type: integer
+          format: int64
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                $ref: "#/components/schemas/BookResponseDto"
+    put:
+      tags:
+      - Book Controller
+      summary: Update book by ID
+      description: Update the details of an existing book by its ID
+      operationId: updateBook
+      parameters:
+      - name: id
+        in: path
+        description: ID of the book to update
+        required: true
+        schema:
+          type: integer
+          format: int64
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/BookDto"
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                $ref: "#/components/schemas/BookResponseDto"
+    delete:
+      tags:
+      - Book Controller
+      summary: Delete book by ID
+      description: Remove a book from the library by its ID
+      operationId: deleteBook
+      parameters:
+      - name: id
+        in: path
+        description: ID of the book to delete
+        required: true
+        schema:
+          type: integer
+          format: int64
+      responses:
+        "200":
+          description: OK
+  /books:
+    get:
+      tags:
+      - Book Controller
+      summary: Get all books
+      description: Retrieve a list of all books
+      operationId: getAllBooks
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/BookResponseDto"
+    post:
+      tags:
+      - Book Controller
+      summary: Create a new book
+      description: Add a new book to the library
+      operationId: createBook
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/BookDto"
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                $ref: "#/components/schemas/BookResponseDto"
+components:
+  schemas:
+    BookDto:
+      required:
+      - author
+      - isbn
+      - price
+      - title
+      type: object
+      properties:
+        title:
+          type: string
+          description: Title of the book
+          example: Spring Boot in Action
+        author:
+          type: string
+          description: Author of the book
+          example: Craig Walls
+        isbn:
+          type: string
+          description: ISBN number of the book
+          example: ISBN 9781617292545
+        price:
+          type: number
+          description: Price of the book
+          format: double
+          example: 50.0
+      description: Book details for the new book
+    BookResponseDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: ID of the book
+          format: int64
+          example: 1
+        title:
+          type: string
+          description: Title of the book
+          example: Spring Boot in Action
+        author:
+          type: string
+          description: Author of the book
+          example: Craig Walls
+        isbn:
+          type: string
+          description: ISBN number of the book
+          example: ISBN 9781617292545
+        price:
+          type: number
+          description: Price of the book
+          format: double
+          example: 50.0
+      description: Response Data Transfer Object for Book information
+
