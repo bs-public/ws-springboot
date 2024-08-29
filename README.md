@@ -59,3 +59,10 @@ Workspace for Spring Boot applications
 - **Spring Boot Version**: 3.3.1
 - **Description**: OpenAPI 3 documentation using springdoc in Springboot
  
+### App15: [springboot-sbom](https://github.com/bs-public/ws-springboot/tree/main/springboot-sbom) 
+- **Spring Boot Version**: 3.3.1
+- **Description**: SBOM - Software Bill of Materials
+
+### App16: [springboot-retry](https://github.com/bs-public/ws-springboot/tree/main/springboot-retry) 
+- **Spring Boot Version**: 3.3.3
+- **Description**: Spring Retry
