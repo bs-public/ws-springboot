@@ -66,3 +66,8 @@ Workspace for Spring Boot applications
 ### App16: [springboot-retry](https://github.com/bs-public/ws-springboot/tree/main/springboot-retry) 
 - **Spring Boot Version**: 3.3.3
 - **Description**: Spring Retry
+
+### App17: [springboot-graphql](https://github.com/bs-public/ws-springboot/tree/main/springboot-graphql) 
+- **Spring Boot Version**: 3.3.3
+- **Description**: Spring Boot, Java21, GraphQL, MySQL8, Spring Data JPA, Maven3
+
