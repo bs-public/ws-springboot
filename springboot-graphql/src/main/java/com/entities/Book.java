@@ -2,6 +2,7 @@ package com.entities;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -25,7 +26,7 @@ public class Book {
   @Column(name = "title", nullable = false, length = 255)
   private String title;
 
-  @ManyToOne(fetch = FetchType.LAZY)
+  @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
   @JoinColumn(name = "author_id", nullable = false)
   private Author author;
 
