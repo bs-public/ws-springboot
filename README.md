@@ -71,3 +71,6 @@ Workspace for Spring Boot applications
 - **Spring Boot Version**: 3.3.3
 - **Description**: Spring Boot, Java21, GraphQL, MySQL8, Spring Data JPA, Maven3
 
+### App18: [springboot-startup-report](https://github.com/bs-public/ws-springboot/tree/main/springboot-startup-report) 
+- **Spring Boot Version**: 3.3.4
+- **Description**: Spring Boot, Java21
